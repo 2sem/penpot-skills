@@ -1,0 +1,7 @@
+{
+  "enabledPlugins": {
+    "firebase@firebase": false,
+    "swift-lsp@claude-plugins-official": false
+  },
+  "disabledMcpjsonServers": ["serena"]
+}

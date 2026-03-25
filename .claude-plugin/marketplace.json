@@ -1,0 +1,21 @@
+{
+  "name": "penpot-skills",
+  "owner": {
+    "name": "leesam"
+  },
+  "metadata": {
+    "description": "Skills for working with Penpot via MCP",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "penpot-skills",
+      "description": "Skills for working with Penpot design tool via MCP, including layer ordering, z-index management, and Penpot-specific gotchas",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/penpot-layer-order"
+      ]
+    }
+  ]
+}
